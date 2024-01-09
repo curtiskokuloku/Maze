@@ -70,6 +70,15 @@ public:
         return this->size;
     }
 
+    /**
+     * @brief Checks if the queue is empty.
+     *
+     * @return True if the queue is empty, false otherwise.
+     */
+    [[nodiscard]] bool isEmpty() const override {
+        return size == 0;
+    }
+
 private:
     /**
      * Pointer to the front of the linked list.

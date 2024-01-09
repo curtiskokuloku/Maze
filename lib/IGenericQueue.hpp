@@ -31,6 +31,13 @@ class IGenericQueue {
      * @return The number of items in the queue.
      */
     [[nodiscard]] virtual int length() const = 0;
+
+    /**
+     * @brief Checks if the queue is empty.
+     *
+     * @return True if the queue is empty, false otherwise.
+     */
+    [[nodiscard]] virtual bool isEmpty() const = 0;
 };
 
 #endif //IGENERICQUEUE_HPP

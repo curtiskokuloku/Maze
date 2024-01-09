@@ -9,4 +9,6 @@ add_executable(Maze main.cpp
         lib/GenericStack.hpp
         lib/IGenericQueue.hpp
         lib/GenericQueue.hpp
-        lib/Cell.hpp)
+        lib/Cell.hpp
+        src/Maze.cpp
+        lib/Maze.hpp)
