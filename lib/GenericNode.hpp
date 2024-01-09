@@ -14,16 +14,16 @@ template <typename T>
 class GenericNode {
 public:
     /**
-     * Default Constructor that initializes data and next pointer to nullptr.
+     * Default Constructor that initializes data and next pointer to default-constructed object.
      */
-     GenericNode() : data(nullptr), next(nullptr) {}
+     GenericNode() : data(T()), next(T()) {}
 
      /**
       * Constructor with specified data and next node
       * @param o The data to be stored in the node.
       * @param link Pointer to the next node in the sequence.
       */
-      GenericNode(T o, GenericNode<T> link) : data(o), next(link) {}
+      GenericNode(T o, GenericNode<T>* link) : data(o), next(link) {}
 
       // Selectors
 
