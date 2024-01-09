@@ -1,7 +1,7 @@
 # Maze Solver - An application to generate and solve mazes.
 
 <img src="maze-level1.png" width="176"/>
-<img src="maze-level2.png" width="400"/>
+<img src="maze-level2.png" width="350"/>
 
 ## Description
 
