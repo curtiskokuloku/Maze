@@ -31,9 +31,9 @@ Maze Maze::makeMaze(int level) {
             cols = 20;
             break;
         default:
-            throw std::invalid_argument("Invalid maze level provided. Defaulting to 20X20");
             rows = 20;
             cols = 20;
+            throw std::invalid_argument("Invalid maze level provided. Defaulting to 20X20");
     }
 
     startRow = rand() % rows;
