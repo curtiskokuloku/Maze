@@ -4,11 +4,7 @@
 
 ## Description
 
-> The Maze Solver is a C++ application designed to generate mazes based on varying
-> levels of difficulty and solve them using a specific algorithm.
-> This project serves as an educational tool for understanding maze generation and
-> solving algorithms, while also showcasing fundamental C++ programming concepts
-> such as classes, memory management, and data structures (i.e., stack, queue.
+> C++ application generating and solving mazes. A unique educational tool emphasizing maze algorithms, object-oriented programming, and key C++ concepts. Experience maze solving with elegance in C++.
 
 ## Features
 
